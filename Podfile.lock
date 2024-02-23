@@ -1,3 +1,20 @@
-PODFILE CHECKSUM: 78677dbbfec7571bbe90f6da36cbba1646d67feb
+PODS:
+  - CryptoSwift (1.8.0)
+  - NotificationToast (1.2.1)
 
-COCOAPODS: 1.11.3
+DEPENDENCIES:
+  - CryptoSwift (~> 1.8.0)
+  - NotificationToast
+
+SPEC REPOS:
+  trunk:
+    - CryptoSwift
+    - NotificationToast
+
+SPEC CHECKSUMS:
+  CryptoSwift: 52aaf3fce7337552863b1d952e408085f0e65030
+  NotificationToast: 1121ac0f1b89fae6c1031330dc2889107e23dc07
+
+PODFILE CHECKSUM: a01e986aea75cf9a3f52f46f4dc685d3b4ba5eb8
+
+COCOAPODS: 1.14.3

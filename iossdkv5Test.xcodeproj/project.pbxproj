@@ -12,23 +12,71 @@
 		352F57402990D9CC0098C9ED /* DeviceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352F573F2990D9CC0098C9ED /* DeviceListView.swift */; };
 		352F57422990DA120098C9ED /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352F57412990DA120098C9ED /* MyView.swift */; };
 		352F574429910E9E0098C9ED /* IconImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352F574329910E9E0098C9ED /* IconImage.swift */; };
+		356D9FFA2A481AC300FE9252 /* DeviceApiWriteItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356D9FF92A481AC300FE9252 /* DeviceApiWriteItem.swift */; };
+		356D9FFC2A482AB900FE9252 /* ActivatorDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356D9FFB2A482AB900FE9252 /* ActivatorDevice.swift */; };
+		356D9FFE2A482C1100FE9252 /* InputWifi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356D9FFD2A482C1100FE9252 /* InputWifi.swift */; };
+		356DA0072A49120D00FE9252 /* SelectWifiDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356DA0062A49120D00FE9252 /* SelectWifiDevice.swift */; };
+		356DA0092A491FC000FE9252 /* ConfigBleWifi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356DA0082A491FC000FE9252 /* ConfigBleWifi.swift */; };
+		358ABBDC29E02A1C00FDAF75 /* DeviceCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358ABBDB29E02A1C00FDAF75 /* DeviceCtrl.swift */; };
 		359CB6D628AE5AA100531217 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359CB6D528AE5AA100531217 /* ExternalAccessory.framework */; };
 		359CB6DC28AF4F4600531217 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359CB6DB28AF4F4600531217 /* NetworkExtension.framework */; };
+		35B930822A4C4FD00053187B /* CheckOTAItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B930812A4C4FD00053187B /* CheckOTAItem.swift */; };
+		35B930842A4C4FE80053187B /* GetDeviceInfoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B930832A4C4FE80053187B /* GetDeviceInfoItem.swift */; };
+		35B930882A4C50740053187B /* StartOTAItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B930872A4C50740053187B /* StartOTAItem.swift */; };
 		35BC14E6289BD56F00F044ED /* iossdkv5TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BC14E5289BD56F00F044ED /* iossdkv5TestApp.swift */; };
-		35BC14E8289BD56F00F044ED /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BC14E7289BD56F00F044ED /* MainView.swift */; };
+		35BC14E8289BD56F00F044ED /* BindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BC14E7289BD56F00F044ED /* BindView.swift */; };
 		35BC14EA289BD57000F044ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35BC14E9289BD57000F044ED /* Assets.xcassets */; };
 		35BC14ED289BD57000F044ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35BC14EC289BD57000F044ED /* Preview Assets.xcassets */; };
 		35BC14F7289BD57000F044ED /* iossdkv5TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BC14F6289BD57000F044ED /* iossdkv5TestTests.swift */; };
 		35BC1501289BD57000F044ED /* iossdkv5TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BC1500289BD57000F044ED /* iossdkv5TestUITests.swift */; };
 		35BC1503289BD57000F044ED /* iossdkv5TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BC1502289BD57000F044ED /* iossdkv5TestUITestsLaunchTests.swift */; };
-		35C6284928AA01BC00468BF4 /* GizwitsiOSSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35BC1528289BD59C00F044ED /* GizwitsiOSSDK.framework */; };
-		35C6284A28AA01BC00468BF4 /* GizwitsiOSSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35BC1528289BD59C00F044ED /* GizwitsiOSSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		35DF8B802993F93600ED2440 /* DeviceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DF8B7F2993F93600ED2440 /* DeviceDetail.swift */; };
+		35DF8B842993FCE800ED2440 /* BaseCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DF8B832993FCE800ED2440 /* BaseCard.swift */; };
+		35DF8B86299401BB00ED2440 /* TextLable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DF8B85299401BB00ED2440 /* TextLable.swift */; };
+		35E984142A52D96C002D4F8B /* enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E984132A52D96C002D4F8B /* enums.swift */; };
+		35F984A029ACAC9100FFBD71 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F9849F29ACAC9100FFBD71 /* ListItem.swift */; };
+		35F984A429ACBD0800FFBD71 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F984A329ACBD0800FFBD71 /* LoadingView.swift */; };
 		510F89173AAB29BD6851DEA1 /* Pods_iossdkv5TestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F215744DEFE8336D5D6873F2 /* Pods_iossdkv5TestTests.framework */; };
+		5B06DE29DAD9CFEDB86317EB /* Pods_iossdkv5Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F79977180646D8B328C1AF42 /* Pods_iossdkv5Test.framework */; };
 		6A73178B43127DC152B29521 /* Pods_iossdkv5Test_iossdkv5TestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A4456C8CCDDE537B9FAD7D /* Pods_iossdkv5Test_iossdkv5TestUITests.framework */; };
-		B4264A0663996E8E094BA0AD /* Pods_iossdkv5Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F79977180646D8B328C1AF42 /* Pods_iossdkv5Test.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		35B930662A4B2DB90053187B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35B9305E2A4B2DB90053187B /* CryptoSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 754BE45519693E190098E6F3;
+			remoteInfo = CryptoSwift;
+		};
+		35B930682A4B2DB90053187B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35B9305E2A4B2DB90053187B /* CryptoSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 75211F92207249D8004E41F8;
+			remoteInfo = "CryptoSwift-TestHostApp";
+		};
+		35B9306A2A4B2DB90053187B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35B9305E2A4B2DB90053187B /* CryptoSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 754BE46019693E190098E6F3;
+			remoteInfo = CryptoSwiftTests;
+		};
+		35B9306C2A4B2DB90053187B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35B9305E2A4B2DB90053187B /* CryptoSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7595C14A2072E48C00EA1A5F;
+			remoteInfo = "TestsPerformance-Mac";
+		};
+		35B9306E2A4B2DB90053187B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35B9305E2A4B2DB90053187B /* CryptoSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7564F0602072EAEB00CA5A96;
+			remoteInfo = "TestsPerformance-iOS";
+		};
 		35BC14F3289BD57000F044ED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 35BC14DA289BD56E00F044ED /* Project object */;
@@ -43,30 +91,15 @@
 			remoteGlobalIDString = 35BC14E1289BD56F00F044ED;
 			remoteInfo = iossdkv5Test;
 		};
-		35BC1527289BD59C00F044ED /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 35BC1522289BD59C00F044ED /* GizwitsiOSSDK.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C5A1D812280D78FB0068299E;
-			remoteInfo = GizwitsiOSSDK;
-		};
-		35BC1529289BD59C00F044ED /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 35BC1522289BD59C00F044ED /* GizwitsiOSSDK.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C5A1D81C280D78FB0068299E;
-			remoteInfo = GizwitsiOSSDKTests;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		35C6284B28AA01BC00468BF4 /* Embed Frameworks */ = {
+		35EC9F5F2AFB9253003A2F51 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				35C6284A28AA01BC00468BF4 /* GizwitsiOSSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -74,18 +107,29 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		35161BF52AE93590004E1AAE /* iossdkv5TestRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iossdkv5TestRelease.entitlements; sourceTree = "<group>"; };
 		352F573B2990D2BB0098C9ED /* SDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDK.swift; sourceTree = "<group>"; };
 		352F573D2990D5B80098C9ED /* TabNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabNav.swift; sourceTree = "<group>"; };
 		352F573F2990D9CC0098C9ED /* DeviceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceListView.swift; sourceTree = "<group>"; };
 		352F57412990DA120098C9ED /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 		352F574329910E9E0098C9ED /* IconImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconImage.swift; sourceTree = "<group>"; };
 		353CAB3228AA351800ED313E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		356D9FF92A481AC300FE9252 /* DeviceApiWriteItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceApiWriteItem.swift; sourceTree = "<group>"; };
+		356D9FFB2A482AB900FE9252 /* ActivatorDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivatorDevice.swift; sourceTree = "<group>"; };
+		356D9FFD2A482C1100FE9252 /* InputWifi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputWifi.swift; sourceTree = "<group>"; };
+		356DA0062A49120D00FE9252 /* SelectWifiDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectWifiDevice.swift; sourceTree = "<group>"; };
+		356DA0082A491FC000FE9252 /* ConfigBleWifi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigBleWifi.swift; sourceTree = "<group>"; };
+		358ABBDB29E02A1C00FDAF75 /* DeviceCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCtrl.swift; sourceTree = "<group>"; };
 		359CB6D428AE5AA100531217 /* iossdkv5Test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iossdkv5Test.entitlements; sourceTree = "<group>"; };
 		359CB6D528AE5AA100531217 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
 		359CB6DB28AF4F4600531217 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		35B9305E2A4B2DB90053187B /* CryptoSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CryptoSwift.xcodeproj; path = ../../Project/iossdkv5/CryptoSwift/CryptoSwift.xcodeproj; sourceTree = "<group>"; };
+		35B930812A4C4FD00053187B /* CheckOTAItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOTAItem.swift; sourceTree = "<group>"; };
+		35B930832A4C4FE80053187B /* GetDeviceInfoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDeviceInfoItem.swift; sourceTree = "<group>"; };
+		35B930872A4C50740053187B /* StartOTAItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartOTAItem.swift; sourceTree = "<group>"; };
 		35BC14E2289BD56F00F044ED /* iossdkv5Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iossdkv5Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35BC14E5289BD56F00F044ED /* iossdkv5TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iossdkv5TestApp.swift; sourceTree = "<group>"; };
-		35BC14E7289BD56F00F044ED /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		35BC14E7289BD56F00F044ED /* BindView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindView.swift; sourceTree = "<group>"; };
 		35BC14E9289BD57000F044ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35BC14EC289BD57000F044ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		35BC14F2289BD57000F044ED /* iossdkv5TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iossdkv5TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,7 +137,12 @@
 		35BC14FC289BD57000F044ED /* iossdkv5TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iossdkv5TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35BC1500289BD57000F044ED /* iossdkv5TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iossdkv5TestUITests.swift; sourceTree = "<group>"; };
 		35BC1502289BD57000F044ED /* iossdkv5TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iossdkv5TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		35BC1522289BD59C00F044ED /* GizwitsiOSSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GizwitsiOSSDK.xcodeproj; path = ../../../../Project/iossdkv5/GizwitsiOSSDK.xcodeproj; sourceTree = "<group>"; };
+		35DF8B7F2993F93600ED2440 /* DeviceDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDetail.swift; sourceTree = "<group>"; };
+		35DF8B832993FCE800ED2440 /* BaseCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCard.swift; sourceTree = "<group>"; };
+		35DF8B85299401BB00ED2440 /* TextLable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLable.swift; sourceTree = "<group>"; };
+		35E984132A52D96C002D4F8B /* enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enums.swift; sourceTree = "<group>"; };
+		35F9849F29ACAC9100FFBD71 /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		35F984A329ACBD0800FFBD71 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		5C9B5436D031D42FEAA45CD9 /* Pods-iossdkv5TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iossdkv5TestTests.release.xcconfig"; path = "Target Support Files/Pods-iossdkv5TestTests/Pods-iossdkv5TestTests.release.xcconfig"; sourceTree = "<group>"; };
 		682E1B401388391726AC8EB2 /* Pods-iossdkv5Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iossdkv5Test.debug.xcconfig"; path = "Target Support Files/Pods-iossdkv5Test/Pods-iossdkv5Test.debug.xcconfig"; sourceTree = "<group>"; };
 		6D71435C4EE07E5BD50207C7 /* Pods-iossdkv5Test-iossdkv5TestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iossdkv5Test-iossdkv5TestUITests.debug.xcconfig"; path = "Target Support Files/Pods-iossdkv5Test-iossdkv5TestUITests/Pods-iossdkv5Test-iossdkv5TestUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -112,8 +161,7 @@
 			files = (
 				359CB6D628AE5AA100531217 /* ExternalAccessory.framework in Frameworks */,
 				359CB6DC28AF4F4600531217 /* NetworkExtension.framework in Frameworks */,
-				B4264A0663996E8E094BA0AD /* Pods_iossdkv5Test.framework in Frameworks */,
-				35C6284928AA01BC00468BF4 /* GizwitsiOSSDK.framework in Frameworks */,
+				5B06DE29DAD9CFEDB86317EB /* Pods_iossdkv5Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,9 +195,14 @@
 		352F57382990D13E0098C9ED /* Pages */ = {
 			isa = PBXGroup;
 			children = (
-				35BC14E7289BD56F00F044ED /* MainView.swift */,
+				356DA0032A4911FA00FE9252 /* Discover */,
+				356D9FF42A481A8100FE9252 /* DeviceCtrlApi */,
+				35BC14E7289BD56F00F044ED /* BindView.swift */,
+				35DF8B7F2993F93600ED2440 /* DeviceDetail.swift */,
 				352F573F2990D9CC0098C9ED /* DeviceListView.swift */,
 				352F57412990DA120098C9ED /* MyView.swift */,
+				356D9FFB2A482AB900FE9252 /* ActivatorDevice.swift */,
+				358ABBDB29E02A1C00FDAF75 /* DeviceCtrl.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -158,6 +211,10 @@
 			isa = PBXGroup;
 			children = (
 				352F574329910E9E0098C9ED /* IconImage.swift */,
+				35F9849F29ACAC9100FFBD71 /* ListItem.swift */,
+				35F984A329ACBD0800FFBD71 /* LoadingView.swift */,
+				35DF8B832993FCE800ED2440 /* BaseCard.swift */,
+				35DF8B85299401BB00ED2440 /* TextLable.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -167,6 +224,46 @@
 			children = (
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		356D9FF42A481A8100FE9252 /* DeviceCtrlApi */ = {
+			isa = PBXGroup;
+			children = (
+				356D9FF92A481AC300FE9252 /* DeviceApiWriteItem.swift */,
+				35B930812A4C4FD00053187B /* CheckOTAItem.swift */,
+				35B930832A4C4FE80053187B /* GetDeviceInfoItem.swift */,
+				35B930872A4C50740053187B /* StartOTAItem.swift */,
+			);
+			path = DeviceCtrlApi;
+			sourceTree = "<group>";
+		};
+		356DA0032A4911FA00FE9252 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				356D9FFD2A482C1100FE9252 /* InputWifi.swift */,
+				356DA0062A49120D00FE9252 /* SelectWifiDevice.swift */,
+				356DA0082A491FC000FE9252 /* ConfigBleWifi.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		358ABBD629E029B800FDAF75 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		35B9305F2A4B2DB90053187B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35B930672A4B2DB90053187B /* CryptoSwift.framework */,
+				35B930692A4B2DB90053187B /* CryptoSwift-TestHostApp.app */,
+				35B9306B2A4B2DB90053187B /* CryptoSwiftTests.xctest */,
+				35B9306D2A4B2DB90053187B /* TestsPerformance-Mac.xctest */,
+				35B9306F2A4B2DB90053187B /* TestsPerformance-iOS.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		35BC14D9289BD56E00F044ED = {
@@ -194,11 +291,13 @@
 		35BC14E4289BD56F00F044ED /* iossdkv5Test */ = {
 			isa = PBXGroup;
 			children = (
+				35161BF52AE93590004E1AAE /* iossdkv5TestRelease.entitlements */,
 				359CB6D428AE5AA100531217 /* iossdkv5Test.entitlements */,
 				353CAB3228AA351800ED313E /* Info.plist */,
-				35BC150F289BD57C00F044ED /* lib */,
+				358ABBD629E029B800FDAF75 /* Controller */,
 				352F57352990D1360098C9ED /* Models */,
 				352F57382990D13E0098C9ED /* Pages */,
+				35F984A529ACC29400FFBD71 /* Utils */,
 				35BC14E9289BD57000F044ED /* Assets.xcassets */,
 				35BC14E5289BD56F00F044ED /* iossdkv5TestApp.swift */,
 				352F573D2990D5B80098C9ED /* TabNav.swift */,
@@ -234,26 +333,18 @@
 			path = iossdkv5TestUITests;
 			sourceTree = "<group>";
 		};
-		35BC150F289BD57C00F044ED /* lib */ = {
+		35F984A529ACC29400FFBD71 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				35BC1522289BD59C00F044ED /* GizwitsiOSSDK.xcodeproj */,
+				35E984132A52D96C002D4F8B /* enums.swift */,
 			);
-			path = lib;
-			sourceTree = "<group>";
-		};
-		35BC1523289BD59C00F044ED /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				35BC1528289BD59C00F044ED /* GizwitsiOSSDK.framework */,
-				35BC152A289BD59C00F044ED /* GizwitsiOSSDKTests.xctest */,
-			);
-			name = Products;
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		3BF2C06A392E113EC5ABC7B2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				35B9305E2A4B2DB90053187B /* CryptoSwift.xcodeproj */,
 				359CB6DB28AF4F4600531217 /* NetworkExtension.framework */,
 				359CB6D528AE5AA100531217 /* ExternalAccessory.framework */,
 				F79977180646D8B328C1AF42 /* Pods_iossdkv5Test.framework */,
@@ -287,7 +378,8 @@
 				35BC14DE289BD56F00F044ED /* Sources */,
 				35BC14DF289BD56F00F044ED /* Frameworks */,
 				35BC14E0289BD56F00F044ED /* Resources */,
-				35C6284B28AA01BC00468BF4 /* Embed Frameworks */,
+				5900D2C8CA474940616993C2 /* [CP] Embed Pods Frameworks */,
+				35EC9F5F2AFB9253003A2F51 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -325,6 +417,7 @@
 				35BC14F8289BD57000F044ED /* Sources */,
 				35BC14F9289BD57000F044ED /* Frameworks */,
 				35BC14FA289BD57000F044ED /* Resources */,
+				8E06C1FEAB0145549C3AA2BA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -372,8 +465,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 35BC1523289BD59C00F044ED /* Products */;
-					ProjectRef = 35BC1522289BD59C00F044ED /* GizwitsiOSSDK.xcodeproj */;
+					ProductGroup = 35B9305F2A4B2DB90053187B /* Products */;
+					ProjectRef = 35B9305E2A4B2DB90053187B /* CryptoSwift.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -386,18 +479,39 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		35BC1528289BD59C00F044ED /* GizwitsiOSSDK.framework */ = {
+		35B930672A4B2DB90053187B /* CryptoSwift.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = GizwitsiOSSDK.framework;
-			remoteRef = 35BC1527289BD59C00F044ED /* PBXContainerItemProxy */;
+			path = CryptoSwift.framework;
+			remoteRef = 35B930662A4B2DB90053187B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		35BC152A289BD59C00F044ED /* GizwitsiOSSDKTests.xctest */ = {
+		35B930692A4B2DB90053187B /* CryptoSwift-TestHostApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "CryptoSwift-TestHostApp.app";
+			remoteRef = 35B930682A4B2DB90053187B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		35B9306B2A4B2DB90053187B /* CryptoSwiftTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = GizwitsiOSSDKTests.xctest;
-			remoteRef = 35BC1529289BD59C00F044ED /* PBXContainerItemProxy */;
+			path = CryptoSwiftTests.xctest;
+			remoteRef = 35B9306A2A4B2DB90053187B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		35B9306D2A4B2DB90053187B /* TestsPerformance-Mac.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "TestsPerformance-Mac.xctest";
+			remoteRef = 35B9306C2A4B2DB90053187B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		35B9306F2A4B2DB90053187B /* TestsPerformance-iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "TestsPerformance-iOS.xctest";
+			remoteRef = 35B9306E2A4B2DB90053187B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -451,6 +565,40 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		5900D2C8CA474940616993C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iossdkv5Test/Pods-iossdkv5Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iossdkv5Test/Pods-iossdkv5Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iossdkv5Test/Pods-iossdkv5Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E06C1FEAB0145549C3AA2BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iossdkv5Test-iossdkv5TestUITests/Pods-iossdkv5Test-iossdkv5TestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iossdkv5Test-iossdkv5TestUITests/Pods-iossdkv5Test-iossdkv5TestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iossdkv5Test-iossdkv5TestUITests/Pods-iossdkv5Test-iossdkv5TestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9ACE483481E8CFB09FCCB01B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -502,13 +650,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				358ABBDC29E02A1C00FDAF75 /* DeviceCtrl.swift in Sources */,
+				35DF8B802993F93600ED2440 /* DeviceDetail.swift in Sources */,
+				35B930882A4C50740053187B /* StartOTAItem.swift in Sources */,
+				35B930822A4C4FD00053187B /* CheckOTAItem.swift in Sources */,
+				356D9FFC2A482AB900FE9252 /* ActivatorDevice.swift in Sources */,
 				352F57422990DA120098C9ED /* MyView.swift in Sources */,
 				352F573C2990D2BB0098C9ED /* SDK.swift in Sources */,
-				35BC14E8289BD56F00F044ED /* MainView.swift in Sources */,
+				35E984142A52D96C002D4F8B /* enums.swift in Sources */,
+				356D9FFE2A482C1100FE9252 /* InputWifi.swift in Sources */,
+				35DF8B842993FCE800ED2440 /* BaseCard.swift in Sources */,
+				35F984A029ACAC9100FFBD71 /* ListItem.swift in Sources */,
+				356DA0092A491FC000FE9252 /* ConfigBleWifi.swift in Sources */,
+				35F984A429ACBD0800FFBD71 /* LoadingView.swift in Sources */,
+				35BC14E8289BD56F00F044ED /* BindView.swift in Sources */,
 				352F574429910E9E0098C9ED /* IconImage.swift in Sources */,
+				356DA0072A49120D00FE9252 /* SelectWifiDevice.swift in Sources */,
 				352F57402990D9CC0098C9ED /* DeviceListView.swift in Sources */,
+				35B930842A4C4FE80053187B /* GetDeviceInfoItem.swift in Sources */,
+				35DF8B86299401BB00ED2440 /* TextLable.swift in Sources */,
 				35BC14E6289BD56F00F044ED /* iossdkv5TestApp.swift in Sources */,
 				352F573E2990D5B80098C9ED /* TabNav.swift in Sources */,
+				356D9FFA2A481AC300FE9252 /* DeviceApiWriteItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -674,6 +837,10 @@
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = SN2264M572;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iossdkv5Test/lib",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iossdkv5Test/Info.plist;
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = aaa;
@@ -682,11 +849,12 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gizwits.xb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -703,14 +871,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = iossdkv5Test/iossdkv5Test.entitlements;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_ENTITLEMENTS = iossdkv5Test/iossdkv5TestRelease.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iossdkv5Test/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = SN2264M572;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iossdkv5Test/lib",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iossdkv5Test/Info.plist;
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = aaa;
@@ -719,15 +891,16 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gizwits.xb;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gizwits.v5sdk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = XB_Dev;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = v5sdk_profile;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

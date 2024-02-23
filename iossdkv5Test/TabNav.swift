@@ -16,17 +16,23 @@ struct NavRouter: View {
                     Image(systemName: "magnifyingglass").imageScale(.large)
                     Text("搜索")
             }.tag(1)
-            MainView()
+            BindView()
                 .tabItem {
                     Image(systemName: "list.bullet").imageScale(.large)
                     Text("绑定")
             }.tag(2)
             
+            ActivatorDevice()
+                .tabItem {
+                    Image(systemName: "wifi.router").imageScale(.large)
+                    Text("配网")
+            }.tag(3)
+            
             MyView()
                 .tabItem {
                     Image(systemName: "person").imageScale(.large)
                     Text("我的")
-            }.tag(3)
+            }.tag(4)
         }
         .accentColor(/*@START_MENU_TOKEN@*/Color("tintColor")/*@END_MENU_TOKEN@*/)
     }
